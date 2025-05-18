@@ -2,6 +2,7 @@
 
 import { signIn } from "next-auth/react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -29,7 +30,7 @@ export default function Login() {
             />
           </div>
     <div className="gap-2 flex justify-center  items-center">
-    <a href="/">
+    <Link href="/">
           <button
               type="button"
 
@@ -37,7 +38,7 @@ export default function Login() {
           >
             LogIn
           </button>
-          </a>
+          </Link>
           Or
            <button
         onClick={(e) =>{
