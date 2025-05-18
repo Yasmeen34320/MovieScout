@@ -17,7 +17,7 @@ const { data: session, status } = useSession();
     // Fetch data from API on client side
     const fetchData = async () => {
       try {
-        const res = await fetch("https://movie-scout-gael.vercel.app/api/users");
+        const res = await fetch("https://movie-scout-mzo1.vercel.app/api/users");
         const result = await res.json();
         setData(result);
       } catch (error) {
